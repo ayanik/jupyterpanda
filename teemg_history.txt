@@ -1,0 +1,13 @@
+   97  git remote add origin https://github.com/ayanik/jupyterpanda.git
+   98  echo "# jupyterpanda" >> README.md
+   99  git init
+  100  git add README.md
+  101  git commit -m "first commit"
+  102  git remote add origin https://github.com/ayanik/jupyterpanda.git
+  103  git push -u origin master
+  104  git add TEEMG.ipynb 
+  105  git commit -m "second commit"
+  106  git push -u origin master
+  107  git remote add origin https://github.com/ayanik/jupyterpanda.git
+  108  git push -u origin master
+
